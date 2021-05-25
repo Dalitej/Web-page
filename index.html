@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Art&Law</title>
+</head>
+<body>
+    <div class="logo">
+        <a href="./index.html"><img src="./assets/Art&Law-logga.svg" alt="homepage"></a>
+    </div>
+    <header>
+        <div class="heading">
+            <h1>Some text</h1>
+        </div>
+        <nav>
+            <a class="nav-text" href="#">Expertise</a>
+            <a class="nav-text" href="#">Story</a>
+            <a class="nav-text" href="#">Contact</a>
+            <div class="button nav-button" id="logIn-button">Log In</div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div id="log-in-modal">
+                <button type="button" id="close-button" class="button">Close</button>
+                <h2>Log in</h2>
+                <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="button">Submit</button>
+                  </form>
+            </div>
+        </section>
+        <section class="section">
+            <div class="pic-sec">
+                <img class="left-img" src="https://images.unsplash.com/photo-1508107480913-4682c0726ff9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80" alt="art piece">
+            </div>
+            <div class="text-sec">
+                <div class="description-text">
+                    <h3>Expertise</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non atque cum adipisci, molestiae esse mollitia necessitatibus? Consectetur illo ipsum inventore quo, officia voluptatem ab, corrupti magni ex a iusto corporis.</p>
+                    <div class="center-btn">
+                        <button class="button">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="text-sec">
+                <div class="description-text">
+                    <h3>Story</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non atque cum adipisci, molestiae esse mollitia necessitatibus? Consectetur illo ipsum inventore quo, officia voluptatem ab, corrupti magni ex a iusto corporis.</p>
+                    <div class="center-btn">
+                        <button class="button">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="pic-sec">
+                <img class="right-img" src="https://images.unsplash.com/photo-1603644448048-28a7e5122f0a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80" alt="law">
+            </div>
+        </section>
+
+        <section class="section last-sec">
+            <div class="pic-sec">
+                <img class="left-img animation-last" src="https://images.unsplash.com/photo-1509959190799-2df97b55bd20?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80" alt="house">
+            </div>
+            <div class="text-sec">
+                <div class="description-text">
+                    <h3>Contact</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non atque cum adipisci, molestiae esse mollitia necessitatibus? Consectetur illo ipsum inventore quo, officia voluptatem ab, corrupti magni ex a iusto corporis.</p>
+                    <div class="center-btn">
+                        <button class="button">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="contact">
+                <h4>Contact</h4>
+                <p>Phone +46 765646988</p>
+                <p>Mail example@mail.co</p>
+        </div>
+        <div class="adress">
+            <h4>Adress</h4>
+            <p>Strandv...</p>
+        </div>
+    </footer>
+    <script src="./login.js" ></script>
+</body>
+</html>
